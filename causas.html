@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>causas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/baner.png" alt="Banner" class="banner">
+    </header>
+    
+    <nav class="menu">
+        <a href="index.html">Presentación</a>
+        <a href="definicion.html">Definición</a>
+        <a href="causas.html">Causas</a>
+        <a href="tipos.html">Tipos</a>
+        <a href="consecuencias.html">Consecuencias</a>
+        <a href="soluciones.html">Soluciones</a>
+    </nav>
+    
+    <main>
+        <h1>causas</h1>
+        Contaminación provocada por acciones domésticas: hace referencia a la contaminación 
+        causada por sustancias que se utilizan comúnmente en los hogares, como alimentos,
+        productos de limpieza, productos de aseo personal, cañería, envases plásticos, 
+        bolsas plásticas, basura, etc.
+        <br><br>
+        Contaminación provocada por actividades agrícola-ganaderas: hace referencia a la 
+        contaminación causada por sustancias que se utilizan en la ganadería, principalmente 
+        la deposición de grandes cantidades de materia orgánica (orines y estiércol) en las 
+        fuentes de agua, provocando su eutrofización.
+        <br><br>
+        Contaminación provocada por actividad pluvial: hace referencia a la contaminación
+        causada por la lluvia, la cual arrastra toda la basura que se encuentre en el suelo
+        hasta las cuencas de agua. De esta manera, puede arrastrar objetos de uso cotidiano,
+        como empaques, envolturas, objetos plásticos y demás, así como otras sustancias 
+        que han quedado en el suelo o el pavimento, como aceite industrial, materia 
+        orgánica, vidrio u otros compuestos.
+        <br><br>
+        Contaminación provocada por la navegación: hace referencia a la contaminación causada
+        por los barcos y los medios de transporte marítimo y fluvial. Este tipo de
+        contaminación es principalmente causado por los petroleros, cuyos vertidos de 
+        petróleo, sean estos accidentales o no, producen daños ecológicos de gran magnitud.
+        <br><br>
+        Contaminación provocada por actividades industriales: hace referencia a la 
+        contaminación causada por actividades industriales, como las sustancias producidas por
+        las centrales nucleares o eléctricas, el derramamiento de sustancias procedentes de
+        fábricas, la explotación de materias primas y la deforestación, la contaminación por
+        objetos y sustancias desechadas, el transporte de iones en los procesos de 
+        galvanoplastia, etc.
+        <br><br></p>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/causas1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/causas2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/causas3.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+
+    </main>
+    <br><br>
+    <footer>
+        proyecto ambientales II
+       </footer>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+     
+       <button id="btnSubir">↑ Subir</button>
+
+<script>
+// Mostrar botón al hacer scroll
+window.onscroll = function() {
+  const btn = document.getElementById("btnSubir");
+  if (document.documentElement.scrollTop > 100) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
+// Subir al inicio
+document.getElementById("btnSubir").onclick = function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+</script>
+
+</body>
+</html>

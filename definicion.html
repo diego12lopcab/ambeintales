@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definición</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/baner.png" alt="Banner" class="banner">
+    </header>
+    
+    <nav class="menu">
+        <a href="index.html">Presentación</a>
+        <a href="definicion.html">Definición</a>
+        <a href="causas.html">Causas</a>
+        <a href="tipos.html">Tipos</a>
+        <a href="consecuencias.html">Consecuencias</a>
+        <a href="soluciones.html">Soluciones</a>
+    </nav>
+    
+    <main>
+        <h1>Definición</h1>
+        <p>¿Qué es la contaminación del agua?</p>
+        <p>
+            La contaminación del agua, también conocida como contaminación hídrica, 
+            es la contaminación de las fuentes hídricas, como ríos, lagos, lagunas 
+            y océanos. Como consecuencia de esta contaminación, el agua deja de ser 
+            apta para la vida y, por tanto, para la agricultura, la ganadería, la pesca, 
+            la industria e incluso para el consumo humano.<br><br>
+            Si bien es cierto que la 
+            contaminación hídrica se puede dar por factores naturales, como la ceniza volcánica
+            o el sedimento, en la actualidad la mayor parte de la contaminación es generada 
+            por el ser humano, por el vertimiento de desperdicios y sustancias peligrosas 
+            para la biología, la reducción de las cuencas y la alteración de las corrientes 
+            y la temperatura.<br><br>
+            <div style="text-align: center;">
+                <img src="img/contaminacion 1.jpeg" style="width: 500px; height: 300px;">
+            </div>
+            Si bien en varios casos la contaminación hídrica está determinada por la pérdida de
+            nutrientes, que reducen o hacen imposible la vida orgánica; la eutrofización, el 
+            exceso de nutrientes, también es una forma de contaminación del agua. Podría 
+            pensarse en un primer momento que el agua enriquecida con nutrientes sería 
+            benéfica para la cuenca y para los organismos vivos que la habitan, pero un mayor 
+            número de nutrientes provocaría la proliferación de la vida y el exceso de materia
+            orgánica una vez estos mueran. Con ello, la calidad del agua se vería disminuida
+            por la podredumbre y el hedor, y más tarde la cuenca desaparecería por la
+            sedimentación de toda esta materia, que la convertiría en tierra apta para 
+            plantas terrestres..<br></p><br>
+            <div style="text-align: center;">
+                <img src="img/contaminacion1.jpeg" style="width: 500px; height: 300px;">
+            </div>
+
+    </main>
+    
+    <footer>
+        proyecto ambientales II
+       </footer>
+       <button id="btnSubir">↑ Subir</button>
+
+<script>
+// Mostrar botón al hacer scroll
+window.onscroll = function() {
+  const btn = document.getElementById("btnSubir");
+  if (document.documentElement.scrollTop > 100) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
+// Subir al inicio
+document.getElementById("btnSubir").onclick = function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+</script>
+
+</body>
+</html>
